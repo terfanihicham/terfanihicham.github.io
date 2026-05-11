@@ -44,5 +44,4 @@ document.getElementById("react-root").innerHTML = projects;
 
 }
 
-// Run App
 document.addEventListener("DOMContentLoaded", App);

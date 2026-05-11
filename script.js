@@ -1,9 +1,5 @@
 $(document).ready(function(){
 
-// =========================
-// Skills Animation
-// =========================
-
 $(".bar").each(function(){
 
 let level = $(this).data("level");
@@ -14,9 +10,6 @@ width: level + "%"
 
 });
 
-// =========================
-// Dark Mode
-// =========================
 
 $("#toggleDark").click(function(){
 
@@ -24,9 +17,6 @@ $("body").toggleClass("dark");
 
 });
 
-// =========================
-// Hover Effect Cards
-// =========================
 
 $(".card").hover(
 
